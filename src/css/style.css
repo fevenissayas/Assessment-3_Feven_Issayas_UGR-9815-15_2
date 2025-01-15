@@ -61,16 +61,18 @@ form .btn #zero {
     margin-bottom: 5em;
 }
 
-#button-container button {
+#button-container a {
+    display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-    border: none;
+    text-decoration: none;
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
+    text-align: center;
 }
 
-#button-container button:hover {
+#button-container a:hover {
     background-color: #45a049;
 }
