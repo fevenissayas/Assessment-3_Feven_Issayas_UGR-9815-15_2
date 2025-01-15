@@ -55,13 +55,13 @@ form .btn #equals {
 form .btn #zero {
     width: 125px;  
 }
-.button-container {
+#button-container {
     display: flex;
     justify-content: center;
     margin-bottom: 5em;
 }
 
-.button-container button {
+#button-container button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
@@ -71,6 +71,6 @@ form .btn #zero {
     border-radius: 5px;
 }
 
-.button-container button:hover {
+#button-container button:hover {
     background-color: #45a049;
 }
